@@ -1,0 +1,14 @@
+[user]
+	signingKey = 00389B88868642C5
+	email = trevorreiff@gmail.com
+	name = Trevor Reiff
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[alias]
+	co = checkout
+        st = status
+        hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[push]
+	default = current
