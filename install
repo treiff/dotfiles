@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Get dotfiles installation directory
+DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+########################
+# SIMLINK CONFIG FILES #
+########################
+
+ln -sf "$DOTFILES_DIR/.gitconfig" ~
+ln -sf "$DOTFILES_DIR/.tmux.conf" ~
+
+# Download tmux themepack
+# assumes .tmux.conf already has themepack sourced
+if [ ! -d "$DOTFILES_DIR/.tmux-themepack" ]; then
+  git clone https://github.com/jimeh/tmux-themepack.git
+  mv tmux-themepack .tmux-themepack
+fi
+
+ln -sf "$DOTFILES_DIR/.tmux-themepack" ~
+
+########################
+#  #
+########################
