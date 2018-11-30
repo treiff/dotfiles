@@ -11,7 +11,7 @@ SPACESHIP_BATTERY_SHOW=false
 # PLUGINS
 ###################################
 
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 ###################################
 # SOURCE

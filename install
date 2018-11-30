@@ -18,8 +18,9 @@ if [ ! -d "$DOTFILES_DIR/.tmux-themepack" ]; then
 fi
 
 ln -sf "$DOTFILES_DIR/.tmux-themepack" ~
-ln -sf "$DOTFILES_DIR/.zshenv ~
-ln -sf "$DOTFILES_DIR/.zshrc ~
+ln -sf "$DOTFILES_DIR/.zshenv" ~
+ln -sf "$DOTFILES_DIR/.zshrc" ~
+ln -sf "$DOTFILES_DIR/.vimrc" ~
 
 ########################
 #  #
