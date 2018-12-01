@@ -21,7 +21,6 @@ ln -sf "$DOTFILES_DIR/.tmux-themepack" ~
 ln -sf "$DOTFILES_DIR/.zshenv" ~
 ln -sf "$DOTFILES_DIR/.zshrc" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
-
-########################
-#  #
-########################
+# Directory here is for "VSCode Insiders" edition
+ln -sf "$DOTFILES_DIR/VSCode/settings.json" ~/Library/Application\ Support/Code\ -\ Insiders/User/
+ln -sf "$DOTFILES_DIR/VSCode/keybindings.json" ~/Library/Application\ Support/Code\ -\ Insiders/User/
