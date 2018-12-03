@@ -12,3 +12,16 @@
         hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [push]
 	default = current
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+[color "diff"]
+        meta = yellow
+[core]
+        editor = vim --noplugin
+[help]
+        autocorrect = 1
+[branch]
+	autosetupmerge = true
+        autosetuprebase = always
