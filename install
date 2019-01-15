@@ -21,6 +21,10 @@ if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
   mv zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/
 fi
 
+# Install Firacode font
+# assumes homebrew already installed
+brew tap caskroom/fonts && brew cask install font-fira-code
+
 ########################
 # SIMLINK CONFIG FILES #
 ########################

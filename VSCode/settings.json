@@ -9,5 +9,8 @@
     "editor.rulers": [
         110
     ],
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false",
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true
 }
