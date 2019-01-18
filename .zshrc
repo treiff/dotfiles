@@ -22,7 +22,5 @@ source $HOME/.dotfiles/aliases
 
 ###################################
 # EXPORTS
+# See .zshenv
 ###################################
-
-export EDITOR="vim"
-export GOPATH=$HOME/go
