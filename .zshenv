@@ -6,6 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 
 export EDITOR="vim"
 export GOPATH=$HOME/go
+export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOPATH/bin"
 
 # NVM config
