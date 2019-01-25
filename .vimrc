@@ -1,2 +1,2 @@
 " Set spellcheck and textwidth for git commit messages
-autocmd Filetype gitcommit setlocal spell textwidth=72
+au FileType gitcommit set tw=72
