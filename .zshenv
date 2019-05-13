@@ -5,11 +5,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 export EDITOR="vim"
-<<<<<<< Updated upstream
 export GOPATH=$HOME/go
-=======
-export GOPATH="$HOME/go"
->>>>>>> Stashed changes
 export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOPATH/bin"
 
