@@ -12,5 +12,14 @@
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#839379"
+    },
+    "vim.surround": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "vim.searchHighlightColor": "blue",
+    "[ruby]": {}
 }

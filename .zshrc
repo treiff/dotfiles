@@ -17,7 +17,7 @@ plugins=(git zsh-syntax-highlighting)
 # OPTIONS
 ###################################
 
-setopt APPEND_HISTORY
+unsetopt SHARE_HISTORY
 
 ###################################
 # SOURCE
