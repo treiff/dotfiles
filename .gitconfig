@@ -4,6 +4,7 @@
 	name = Trevor Reiff
 [commit]
 	gpgsign = true
+        template = ~/.git_commit_template
 [tag]
 	gpgsign = true
 [alias]

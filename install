@@ -30,6 +30,7 @@ brew tap caskroom/fonts && brew cask install font-fira-code
 ########################
 
 ln -sf "$DOTFILES_DIR/.gitconfig" ~
+ln -sf "$DOTFILES_DIR/.git_commit_template" ~
 ln -sf "$DOTFILES_DIR/.tmux.conf" ~
 ln -sf "$DOTFILES_DIR/.tmux-themepack" ~
 ln -sf "$DOTFILES_DIR/.zshenv" ~
