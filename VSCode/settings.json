@@ -21,5 +21,6 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "vim.searchHighlightColor": "blue",
-    "[ruby]": {}
+    "[ruby]": {},
+    "editor.largeFileOptimizations": false
 }

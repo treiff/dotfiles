@@ -3,11 +3,11 @@
 ###################################
 
 export ZSH=$HOME/.oh-my-zsh
-
 export EDITOR="vim"
 export GOPATH=$HOME/go
 export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOPATH/bin"
+export FZF_BASE=/usr/local/opt/fzf
 
 # NVM config
 export NVM_DIR="$HOME/.nvm"
@@ -19,3 +19,6 @@ export PATH="$PATH:/Applications/Visual Studio Code - Insiders.app/Contents/Reso
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# FZF setup
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

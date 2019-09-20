@@ -11,7 +11,7 @@ SPACESHIP_BATTERY_SHOW=false
 # PLUGINS
 ###################################
 
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting fzf)
 
 ###################################
 # OPTIONS
@@ -30,3 +30,4 @@ source $HOME/.dotfiles/aliases
 # EXPORTS
 # See .zshenv
 ###################################
+
