@@ -20,5 +20,8 @@ export PATH="$PATH:/Applications/Visual Studio Code - Insiders.app/Contents/Reso
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# Add Python to path
+export PATH="$PATH:/usr/bin/python3"
+
 # FZF setup
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
