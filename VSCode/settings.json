@@ -9,7 +9,7 @@
     "editor.rulers": [
         110
     ],
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 5,
     "editor.minimap.enabled": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
